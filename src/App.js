@@ -4,8 +4,10 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 import TextArea from './components/TextArea';
 import Home from './components/Home';
+import News from './components/News';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer';
+import Crud from './components/Crud';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route exact path="/TextArea" element={<TextArea  title="Enter the text to analyze" />} />
             <Route exact path="/AboutUs" element={<About />} />
             <Route exact path="/Home" element={<Home />} />
+            <Route exact path="/News" element={< News />}/>
+            <Route exact path="/Crud" element={< Crud />} />
             {/* <Route path="*" element={<NotFound/>}/> */}
           </Routes>
           <Footer></Footer>

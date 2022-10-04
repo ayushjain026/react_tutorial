@@ -19,7 +19,13 @@ export default function NavBar() {
         <Link className="nav-link" to="/TextArea">TextArea</Link>
       </li>
       <li className="nav-item">
+        <Link className="nav-link" to="/News">News</Link>
+      </li>
+      <li className="nav-item">
         <Link className="nav-link" to="/AboutUs">About Us</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/Crud">Crud</Link>
       </li>
       {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
